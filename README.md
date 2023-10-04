@@ -37,3 +37,8 @@ Win10 download location(pick english - magnet):
 These are the official images, so you still need a serial number.
 
 Scripts and full explanations come later
+
+List all installed VMs:
+```bash
+virsh list --all
+```
