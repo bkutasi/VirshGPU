@@ -42,3 +42,12 @@ List all installed VMs:
 ```bash
 virsh list --all
 ```
+
+Networking, if you use Network Manager
+Check the devices and the connections:
+```bash
+nmcli device status
+```
+```bash
+nmcli device status
+```
