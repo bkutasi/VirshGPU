@@ -51,3 +51,9 @@ nmcli device status
 ```bash
 nmcli device status
 ```
+
+# Problems
+Somehow if you deleted your network connection and dont have an ip add a new connection to your interface(mine is enp7s0 so you need to change that probably)
+```bash
+sudo nmcli con add type ethernet con-name base ifname enp7s0
+```
